@@ -7,7 +7,7 @@ const version = "2.3434343434";
 
 app.get("/", (req, res) => {
 	res.send(
-		`<h1>Node Express App</h1> <h3>Hello World from Node & Express CI-CD!</h3> <h3 style="color: blue">Version ${version}</h3>`
+		`<h1>Welcome to Simulanis Node Express App</h1> <h3>Hello World from Node & Express CI-CD!</h3> <h3 style="color: blue">Version ${version}</h3>`
 	);
 });
 
